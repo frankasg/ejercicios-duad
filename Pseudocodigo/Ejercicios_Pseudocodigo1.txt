@@ -1,0 +1,68 @@
+Ejercicio 1.
+
+Inicio
+Definir precioProducto
+Definir descuento
+Definir precioFinal
+
+Pedir precioProducto
+
+Si (precioProducto < 100) entonces:
+	descuento = precioProducto * 0.02
+Sino
+	descuento = precioProducto * 0.1
+FinSi
+	
+precioFinal = precioProducto - descuento
+
+Mostrar "El precio final es de"
+Mostrar precioFinal
+Fin
+
+
+-----------------------------------------------------
+Ejercicio 2.
+
+Inicio
+Definir tiempoSegundos
+Definir minConvertidoSegundos = 10 * 60
+Definir segundosFaltantes
+
+Pedir tiempoSegundos
+
+Si (tiempoSegundos < minConvertidoSegundos) entonces:
+	segundosFaltantes = minConvertidoSegundos - tiempoSegundos
+	Mostrar segundosFaltantes
+
+Si (tiempoSegundos > minConvertidoSegundos) entonces:
+	Mostrar "Mayor"
+
+Sino
+	Mostrar "Igual"
+FinSi
+Fin
+
+-----------------------------------------------------
+Ejercicio 3.
+
+Inicio
+Definir iteraciones
+Definir sumatoria = 0
+Definir contador = 1
+
+Pedir iteraciones
+
+Mientras que (contador < iteraciones) repetir:
+	sumatoria = sumatoria + contador
+	contador = contador + 1
+FinMientras
+
+sumatoria = sumatoria + contador
+Mostrar sumatoria
+Fin
+
+
+
+
+
+

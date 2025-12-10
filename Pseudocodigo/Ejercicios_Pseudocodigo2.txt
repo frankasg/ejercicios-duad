@@ -1,0 +1,68 @@
+Ejercicio 1.
+
+Inicio
+Definir primero
+Definir segundo
+Definir temporal
+
+Pedir primero
+Pedir segundo
+
+
+Si (primero > segundo) entonces:
+	temporal = segundo
+	segundo = primero
+	primero = temporal
+FinSi
+
+Mostrar "A:"
+Mostrar primero
+Mostrar "B"
+Mostrar segundo
+Fin
+
+
+-----------------------------------------------------
+Ejercicio 2.
+
+Inicio
+Definir kmh
+Definir ms
+
+Pedir kmh
+ms = kmh / 3.6
+Mostrar ms 
+Fin
+
+-----------------------------------------------------
+Ejercicio 3.
+
+Inicio
+Definir porcentajeHombres
+Definir porcentajeMujeres
+Definir cantidadHombres = 0
+Definir cantidadjeMujeres = 0
+Definir contador = 0
+Definir respuestaUsuario
+
+Mientras que (contador < 6) repetir
+	Pedir respuestaUsuario
+
+	Si(respuestaUsuario == 1)
+		cantidadHombres = cantidadHombres + 1
+	Sino
+		cantidadjeMujeres = cantidadjeMujeres + 1
+	FinSi
+	
+	contador = contador + 1
+Fin	Mientras
+
+porcentajeHombres = (cantidadHombres * 100) / 6
+porcentajeMujeres = (cantidadjeMujeres * 100) / 6
+
+Mostrar porcentajeMujeres
+Mostrar porcentajeHombres
+
+Fin
+
+

@@ -1,0 +1,22 @@
+| **Método**                   | **Descripción**                                                               |
+| ---------------------------- | ----------------------------------------------------------------------------- |
+| **`read(size=-1)`**          | Lee y retorna todo el contenido del archivo o hasta `size` caracteres.        |
+| **`readline(size=-1)`**      | Lee y retorna una sola línea del archivo.                                     |
+| **`readlines(hint=-1)`**     | Lee todas las líneas y retorna una lista con cada línea como elemento.        |
+| **`write(string)`**          | Escribe texto en el archivo.                                                  |
+| **`writelines(list)`**       | Escribe una lista de líneas en el archivo sin agregar saltos automáticamente. |
+| **`seek(offset, whence=0)`** | Mueve el cursor del archivo a una posición específica.                        |
+| **`tell()`**                 | Retorna la posición actual del cursor.                                        |
+| **`truncate(size=None)`**    | Corta el archivo al tamaño dado o al cursor si no se especifica.              |
+| **`close()`**                | Cierra el archivo y libera recursos.                                          |
+| **`flush()`**                | Fuerza a guardar en disco lo que está en el buffer.                           |
+| **`closed` (propiedad)**     | Indica si el archivo está cerrado (True/False).                               |
+| **`name` (propiedad)**       | Nombre del archivo.                                                           |
+| **`mode` (propiedad)**       | Modo en que se abrió el archivo (`"r"`, `"w"`, `"a"`, `"rb"`, etc.).          |
+| **`encoding` (propiedad)**   | Codificación usada (solo modo texto).                                         |
+| **`fileno()`**               | Devuelve el número de descriptor del archivo (interno del SO).                |
+| **`isatty()`**               | Indica si el archivo está conectado a una terminal.                           |
+| **`detach()`**               | Separa el buffer de texto y retorna el buffer binario subyacente.             |
+| **`readable()`**             | Retorna True si el archivo permite lectura.                                   |
+| **`writable()`**             | Retorna True si el archivo permite escritura.                                 |
+| **`seekable()`**             | Retorna True si se puede mover el cursor con `seek()`.                        |
